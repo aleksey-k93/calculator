@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+.reset-group {
+  display: flex;
+  gap: 10px;
+}
+
+.reset, .backspace {
+  background-color: var(--submitDarkBlue);
+  color: black;
+  border-radius: 3px;
+  height: 30px;
+  width: calc(50% - 5px);
+}
+
+.reset:hover, .backspace:hover {
+  background-color: var(--submitBlue);
+}
+
+.reset:focus, .backspace:focus {
+  border: 1px solid var(--borderLightGrey);
+}

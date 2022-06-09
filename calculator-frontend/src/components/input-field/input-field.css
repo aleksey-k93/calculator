@@ -1,0 +1,12 @@
+.inputField {
+    height: 110px;
+    padding: 10px;
+    border: 1px solid #5f6267;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+}

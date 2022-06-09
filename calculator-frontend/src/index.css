@@ -1,0 +1,35 @@
+:root {
+    --operatorsGrey: #5f6267;
+    --operatorsLightGrey: #70737a;
+    --numbersGrey: #3c4043;
+    --numbersLightGrey: #4a4e50;
+    --submitBlue: #89b3f6;
+    --submitLightBlue: #a6c7fc;
+    --submitDarkBlue: #587fbe;
+    --borderLightGrey: #919193;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1;
+    background-color: #202124;
+    color: white;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+.App {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1100px;
+}

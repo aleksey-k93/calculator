@@ -1,0 +1,57 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-auto-rows: 100px;
+    gap: 10px;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    gap: 10px;
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 50px;
+    gap: 10px;
+}
+
+.numbers, .operators, .submit {
+    border-radius: 3px;
+}
+
+.numbers {
+    background: var(--numbersGrey);
+}
+
+.operators {
+    background: var(--operatorsGrey);
+}
+
+.submit {
+    background-color: var(--submitBlue);
+    color: black;
+}
+
+.numbers:hover {
+    background: var(--numbersLightGrey);
+}
+
+.operators:hover {
+    background: var(--operatorsLightGrey);
+}
+
+.submit:hover {
+    background-color: var(--submitLightBlue);
+}
+
+.numbers:focus, .operators:focus, .submit:focus  {
+    border: 1px solid var(--borderLightGrey);
+}
+
+
+
+
